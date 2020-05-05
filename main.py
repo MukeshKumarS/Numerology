@@ -264,7 +264,7 @@ if __name__ == '__main__':
 				sumValue(name, numerology[myMethod])
 			else:
 				print("\n")
-				print("TIme to do some stretches.")
+				print("Time to do some stretches.")
 	else:
 		print("You must type something in!.")
 	print("------------------------------------------")
