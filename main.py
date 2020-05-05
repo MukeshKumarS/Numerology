@@ -29,7 +29,6 @@ def simplePyramid(dList):
   lElem = dList[fLen -1]
   sLE = sum(lElem)
   print("Calculation Value : ", sLE)
-  #print("Calculation : ")
   pTVal = []
   dSpace = " "
   lSpace = ""
@@ -38,14 +37,14 @@ def simplePyramid(dList):
     eVal = totalValue(iVal)
     pTVal.append(eVal)
     lSpace += dSpace
-    #print(lSpace, str(iList)[1:-1])
-    #print(str(iList)[1:-1])
     fList = ' '.join(map(str, iList))
     print(lSpace + str(fList) + lSpace + " => " + str(iVal) + " => " + str(eVal))
-  #repeatPyramids(pTVal)
+  # # To create a series based on the results we get in each and until last value pulled out
+  # repeatPyramids(pTVal)
   
   
 def repeatPyramids(pTVal):
+  # # To be used only if buildPyramid check len till >= 1
   #pTVal.pop()
   pVal = []
   pVal.append(pTVal)
